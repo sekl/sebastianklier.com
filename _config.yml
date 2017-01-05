@@ -1,0 +1,69 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: SebastianKlier.com
+email:
+description: asd
+url: http://www.sebastianklier.com
+
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Paris
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Sebastian Klier
+  avatar: avatar.jpg
+  job: "full-stack developer"
+  bio: "Just a guy who loves working with Ruby, PHP, JavaScript and Go. Currently living in Shanghai and travelling South East Asia."
+  email: sebastian@sebastianklier.com
+  disqus-shortname:
+  twitter: sebastianklier
+  facebook: #username
+  google:
+    plus: #username
+    analytics: UA-48367650-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: sekl
+  gitlab: sekl
+  stackoverflow: 3544233/sekl   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: sebastianklier
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
