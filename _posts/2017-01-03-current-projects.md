@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Current Projects"
-date:   2016-01-03 21:03:00
+date:   2017-01-03 21:03:00
 categories: [projects]
 comments: false
 ---
