@@ -37,8 +37,8 @@ exclude: [vendor, "Gemfile", "Gemfile.lock"]
 owner:
   name: Sebastian Klier
   avatar: avatar.jpg
-  job: "full-stack developer"
-  bio: ""
+  job: "Full-Stack Developer at <a href='http://www.thenetcircle.com'>TheNetCircle</a>"
+  bio: "Working on social networks by day, coding open-source and games by night. Currently living in Shanghai and traveling South East Asia."
   email: sebastian@sebastianklier.com
   disqus-shortname: sebastianklier
   twitter: sebastianklier
