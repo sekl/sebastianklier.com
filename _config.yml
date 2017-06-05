@@ -27,8 +27,7 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-exclude:
-  - vendor
+exclude: [vendor, "Gemfile", "Gemfile.lock"]
 
 #
 ###################################

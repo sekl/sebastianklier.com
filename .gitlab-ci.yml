@@ -1,8 +1,13 @@
 image: ruby:2.3.3
 
+cache:
+  paths:
+    - vendor/
+
+
 pages:
   script:
-  - gem install jekyll
+  - bundle install --path vendor
   - jekyll build -d public/
   - cp ./public/.well-known/acme-challenge/3tqqhSAqPTD9UEWg644M-GqsF2MXRFFzdd5jrzesTJI.html ./public/.well-known/acme-challenge/3tqqhSAqPTD9UEWg644M-GqsF2MXRFFzdd5jrzesTJI
   artifacts:
