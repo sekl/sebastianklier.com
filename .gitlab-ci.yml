@@ -9,7 +9,7 @@ pages:
   script:
   - bundle install --path vendor
   - jekyll build -d public/
-  - cp ./public/.well-known/acme-challenge/3tqqhSAqPTD9UEWg644M-GqsF2MXRFFzdd5jrzesTJI.html ./public/.well-known/acme-challenge/3tqqhSAqPTD9UEWg644M-GqsF2MXRFFzdd5jrzesTJI
+  - cd public/.well-known/acme-challenge && find -type f -name '*.html' | while read f; do mv "$f" "${f%.html}"; done
   artifacts:
     paths:
     - public
