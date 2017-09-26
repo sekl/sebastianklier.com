@@ -8,7 +8,7 @@ cache:
 pages:
   script:
   - bundle install --path vendor
-  - jekyll build -d public/
+  - JEKYLL_ENV=production jekyll build -d public/
   - cd public/.well-known/acme-challenge && find -type f -name '*.html' | while read f; do mv "$f" "${f%.html}"; done
   artifacts:
     paths:
