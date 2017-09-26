@@ -14,8 +14,7 @@ layout: default
 
   </div><!-- end page content -->
 
-
-  {% if site.owner.disqus-shortname and page.comments == true %}
+  {% if jekyll.environment == "production" and site.owner.disqus-shortname and page.comments == true %}
   <div id="disqus_thread"></div>
   {% include disqus.html %}
   {% endif %}
