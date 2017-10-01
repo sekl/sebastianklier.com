@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automatic Deployments to a Remote Host Using GitLab-CI"
-date:   2017-09-31 19:32:00
+date:   2017-10-01 09:32:00
 categories: [gitlab]
 comments: true
 ---
