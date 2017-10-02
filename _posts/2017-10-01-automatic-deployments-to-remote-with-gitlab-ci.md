@@ -6,7 +6,7 @@ categories: [gitlab]
 comments: true
 ---
 
-I recently spent some time cleaning up a deployment process which so far consisted pretty much of manually running a big shell script to prepare the code base and then rsync the files to a staging environment. Any database changes had to be run manually.
+I recently spent some time cleaning up a deployment process which so far consisted pretty much of manually running a big shell script to prepare the code base and then rsync the files to a staging environment. Any database changes had to be run manually and there used to be no test suite. Because some of these process-related issues have been improved since (we have unit and functional tests now and use database migrations), it seemed like a good time to also get rid off the shell script.
 
 Since this project has already been using [GitLab-CI](https://about.gitlab.com/features/gitlab-ci-cd/) to run the test suite, letting it handle deployments too turned out very simple.
 
@@ -33,10 +33,10 @@ deploy_staging:
         git checkout master &&
         git pull origin master &&
         composer install -n &&
-        bin/console doctrine:migrations:migrate"
+        bin/console doctrine:migrations:migrate --no-interaction "
   environment: staging
   only:
     - master
 ```
 
-Using this short GitLab config file we're able to do what we previously used a 100-line Shell script for, and it even offers you a log and an easy way to roll-back right from the GitLab UI. I hope this explains the general concept well enough so you can adjust it to your needs.
+Using this short GitLab config file we're able to do what we previously used a 100-line Shell script for, and it even offers you a log and an easy way to roll-back right from the GitLab UI.
