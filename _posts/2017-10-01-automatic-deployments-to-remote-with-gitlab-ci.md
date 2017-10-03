@@ -40,3 +40,20 @@ deploy_staging:
 ```
 
 Using this short GitLab config file we're able to do what we previously used a 100-line Shell script for, and it even offers you a log and an easy way to roll-back right from the GitLab UI.
+
+Note that for rollbacks to work this way, you can change the script part to look like the following. This will always check out the code at the commit the build is targetting, so you can switch back and forth using deploy, rollback and re-deploy.
+
+```yaml
+deploy_staging:
+  stage: staging
+  script:
+    - ssh user@example.com "cd /srv/www/staging.example.com &&
+        git checkout master &&
+        git fetch &&
+        git checkout $CI_COMMIT_SHA &&
+        composer install -n &&
+        bin/console doctrine:migrations:migrate --no-interaction "
+  environment: staging
+  only:
+    - master
+```
