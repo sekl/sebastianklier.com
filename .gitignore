@@ -3,3 +3,5 @@ _site
 _drafts
 .ruby-version
 public/
+.bundle
+vendor/
