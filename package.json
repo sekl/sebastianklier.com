@@ -1,0 +1,19 @@
+{
+  "name": "SebastianKlier.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "author": "",
+  "license": "none",
+  "scripts": {
+    "server": "jekyll serve",
+    "build": "bundle install --path vendor && JEKYLL_ENV=production jekyll build -d public/",
+    "minify": "node_modules/.bin/cssmin public/css/main.css > public/css/main.min.css",
+    "sync": "aws s3 sync public/ s3://s3-sebastianklier.com/ --delete --cache-control max-age=86400",
+    "clear-cache": "aws cloudfront create-invalidation --distribution-id E6BXNA1SW9DGC --paths '/*'",
+    "deploy": "npm run build && npm run minify && npm run sync && npm run clear-cache"
+  },
+  "devDependencies": {
+    "cssmin": "^0.4.3"
+  }
+}

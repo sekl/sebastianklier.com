@@ -5,7 +5,7 @@
 #
 title: SebastianKlier.com
 email:
-description: Full-stack web developer who loves working with Ruby, PHP, JavaScript and Go. Currently living in Shanghai and traveling South East Asia.
+description: Full-Stack Web Dev & Blockchain Enthusiast. I blog about Javascript, Golang and Ethereum.
 url: https://www.sebastianklier.com
 
 
@@ -27,7 +27,7 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-exclude: [vendor, "Gemfile", "Gemfile.lock"]
+exclude: [node_modules, vendor, "Gemfile", "Gemfile.lock", "package.json"]
 
 #
 ###################################
@@ -38,7 +38,7 @@ owner:
   name: Sebastian Klier
   avatar: avatar.jpg
   job: "Full-Stack Developer at <a href='http://www.thenetcircle.com'>The NetCircle</a>"
-  bio: "Working on social networks by day, open-source and games by night. Creator of <a href='http://www.learnvue.io'>LearnVue.io</a>. Currently living in Shanghai."
+  bio: "Full-Stack Web Dev, Blockchain Enthusiast, Creator of <a href='http://www.vue-tutorial.com'>vue-tutoral.com</a>. Currently living in Shanghai."
   email: sebastian@sebastianklier.com
   disqus-shortname: sebastianklier
   twitter: sebastianklier
