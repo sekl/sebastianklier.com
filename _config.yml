@@ -37,8 +37,8 @@ exclude: [node_modules, vendor, "Gemfile", "Gemfile.lock", "package.json"]
 owner:
   name: Sebastian Klier
   avatar: avatar.jpg
-  job: "Full-Stack Developer at <a href='http://www.thenetcircle.com'>The NetCircle</a>"
-  bio: "Full-Stack Web Dev, Blockchain Enthusiast, Creator of <a href='http://www.vue-tutorial.com'>vue-tutoral.com</a>. Currently living in Shanghai."
+  job: "Advanced Developer at <a href='http://www.thenetcircle.com'>The NetCircle</a>"
+  bio: "Full-Stack Developer and Blockchain Enthusiast. Currently living in Shanghai."
   email: sebastian@sebastianklier.com
   disqus-shortname: sebastianklier
   twitter: sebastianklier
