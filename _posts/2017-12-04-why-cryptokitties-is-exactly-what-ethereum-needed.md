@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why Cryptokitties is Excatly What Ethereum Needed"
-date:   2017-12-04 19:57:00
+date:   2017-12-04 19:57:00 +0800
 categories: [ethereum, cryptocurrency, dapp]
 comments: true
 ---
