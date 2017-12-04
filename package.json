@@ -6,9 +6,9 @@
   "author": "",
   "license": "none",
   "scripts": {
-    "server": "jekyll serve",
+    "server": "npm run minify && jekyll serve --future",
     "build": "bundle install --path vendor && JEKYLL_ENV=production jekyll build -d public/",
-    "minify": "node_modules/.bin/cssmin public/css/main.css > public/css/main.min.css",
+    "minify": "node_modules/.bin/cssmin public/css/main.css > css/main.min.css && cp css/main.min.css public/css/main.min.css",
     "sync": "aws s3 sync public/ s3://s3-sebastianklier.com/ --delete --cache-control max-age=86400",
     "clear-cache": "aws cloudfront create-invalidation --distribution-id E6BXNA1SW9DGC --paths '/*'",
     "deploy": "npm run build && npm run minify && npm run sync && npm run clear-cache"
