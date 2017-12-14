@@ -26,7 +26,7 @@ Memcache, Solr, RabbitMQ, REST, WebSockets, AWS, Ethereum and various other buzz
 ## EMPLOYMENT HISTORY
 
 **The NetCircle** *Shanghai, China*  
-***Advanced Full-Stack Developer*** *01.09.2014 – Present*
+***Advanced Full-Stack Developer*** *September 2014 – Present*
 
 * Working on a large social network site with 250,000 active members logging in every
 week, nearly a million page views and more than 100,000 messages sent between
@@ -41,20 +41,20 @@ reviews, interviewing potential hires.
 * Holding presentations and technical talks about topics such as Golang, Blockchains, Doctrine internals, best practices.
 
 **FrontCoding** *Shanghai, China*  
-***Senior Developer*** *19.03.2014 – 01.09.*
+***Senior Developer*** *April 2014 – September 2014*
 
 * Training and mentoring junior developers, taking part in interviews, conducting code reviews.
 * Worked on multiple projects using Angular.js, Sencha ExtJS, Symfony.
 
 **Oelder WerbeWerk** *Oelde, Germany*  
-***Web Developer*** *22.07.2005 – 31.03.*
+***Web Developer*** *Juli 2005 – April 2014*
 
-* Started as a part-time job and evolved into a full-time remote position.
+* Started as a part-time job during school and evolved into a full-time remote position.
 * Server administration, shell scripts, developing internal tools (PHP, Python, Bash).
 * Development of applications for customers based on Ruby on Rails, Python, PHP, Wordpress/Typo3 or various other CMS or eCommerce solutions.
 
 **Jobware Online Service GmbH** *Paderborn, Germany*  
-***Software QA Engineer (part-time)*** *24.10.2008 – 01.03.*
+***Software QA Engineer (part-time)*** *October 2008 – March 2010*
 
 * Main responsibilities included creating, reviewing and conducting test cases and
 working on the software documentation.
