@@ -63,7 +63,7 @@ The tricky part when adding Phaser is that it's not built in a modular way, so i
 
 `npm install --save phaser-ce`
 
-If you read the [documentation](https://github.com/photonstorm/phaser-ce) for Phaser, you will notice some comments about using it with Webpack, which will point you in the right direction.
+If you read the [documentation](https://github.com/photonstorm/phaser-ce) for Phaser, you will notice some comments about using it with Webpack, which will point you in the right direction. For example it tells us to install `expose-loader`, so let's do that now: `npm install --save-dev expose-loader`
 
 Let's try to import Phaser and its requirements in our app. For me, this would be in a Vue component called `Game.vue`:
 
