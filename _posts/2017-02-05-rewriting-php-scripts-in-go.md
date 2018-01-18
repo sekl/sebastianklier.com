@@ -8,6 +8,8 @@ comments: true
 
 Recently I was dealing with a migration job that was written in PHP to migrate a million user accounts and their associated data to a new DB and table structure. Originally this script was needed to migrate only a couple hundred accounts for a quick demo, so we didn't really care about its performance, but when we later tried to scale it up we ran into issues with memory as it often happens with long-running PHP scripts. Another problem was that it took way too long to run it.
 
+<!--more-->
+
 The first step I took to improve this script was to get rid of Doctrine ORM calls. Using the ORM was fine for quickly getting the script done in the first place, but now it had to be replaced with very large prepared statements. Using the DBAL instead of relying on the ORM already improved performance drastically, but the script would still take around an hour to migrate all users and consume several GB of memory, still leaking quite a bit with each batch. And the same was true after going down another layer and using PDO directly.
 
 I eventually ended up rewriting the entire script in Go, which not only took me less time than the time I had already spent trying to tweak the existing PHP script, but also immediately got rid of any performance problems.

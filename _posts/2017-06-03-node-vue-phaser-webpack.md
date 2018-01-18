@@ -6,7 +6,9 @@ categories: [node, vue, phaser, game]
 comments: true
 ---
 
-Recently I've been working on a few, simple games based on [Phaser](http://phaser.io). I use Node to handle server-side logic, Vue for client-side routing and UI and Phaser to handle creating the actual game. Client and server communicate over websockets.
+Recently I've been working on a few, simple games based on [Phaser](http://phaser.io). I use Node to handle server-side logic, Vue for client-side routing and UI and Phaser to handle creating the actual game. Client and server communicate over websockets. This post will go over the basic setup.
+
+<!--more-->
 
 I usually base my Vue projects on the excellent [Vue Webpack template](https://github.com/vuejs-templates/webpack) and with this latest project I wanted to use this same template to get started, but adding a Node/Express server and Phaser into the mix and getting it all set up required a little bit more tinkering. As the JavaScript eco-system is so vast nowadays, finding an example for this exact setup was a bit difficult so I will try to provide some guidance in this post of what I ended up with.
 

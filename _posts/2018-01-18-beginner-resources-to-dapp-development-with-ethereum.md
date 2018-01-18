@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Beginner's Resources to DApp Development with Ethereum"
-date: 2018-01-18 21:13:00 +0800
+title: "Beginner Resources for DApp Development with Ethereum"
+date: 2018-01-17 21:13:00 +0800
 categories: [ethereum, dapp, solidity]
 comments: true
 ---
 
 I've found that what's missing for developers coming to Ethereum are really good educational resources that cover everything. In this post I will try to list a whole bunch of different sites, articles and tools that I found helpful in the past so you hopefully won't have to spend as much time searching and can just focus on learning.
+
+<!--more-->
 
 I'm going to assume you already know (roughly) what Ethereum is, if not I suggest checking out the [official website](https://www.ethereum.org) and [whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper), although you don't need to fully understand the latter in order to develop on the Ethereum platform.
 

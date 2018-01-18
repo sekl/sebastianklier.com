@@ -19,6 +19,24 @@ markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
 #permalink:         /articles/:year-:month/:title.html
+pagination:
+  enabled: true
+  debug: false
+  collection: 'posts'
+  per_page: 10
+  permalink: '/blog/:num/' # Pages are index.html inside this folder (default)
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+  tag: ''
+  locale: ''
+  trail:
+    before: 2
+    after: 2
+  extension: html
+  indexpage:
 
 kramdown:
   auto_ids: true

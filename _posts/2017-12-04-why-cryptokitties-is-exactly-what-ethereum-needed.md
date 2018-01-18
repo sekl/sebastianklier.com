@@ -8,6 +8,8 @@ comments: true
 
 [Cryptokitties](https://www.cryptokitties.co) came out less than a week ago and it has already taken the Ethereum-world by storm. If you don't know what it is, it's basically a simple game on the [Ethereum](https://www.ethereum.org) blockchain that let's you collect, breed, buy and sell cats. What makes it more interesting is that each cat has a set of "cattributes" that determine its fur pattern, colors, length of its whiskers or shape of their hair and much more. It also gives them a hidden set of genes, which can - with the right cat-breeding-partner - result in new and possibly unique combinations.
 
+<!--more-->
+
 ![image-title-here](/img/posts/cryptokitties.png)
 
 Breeding cats costs a small fee and takes a certain amount of time, which increases the more often a cat gives birth or sires a kitten, and also depends on their generation. Earlier generations generally have lower cooldowns. The genes combined with a cat's generation, cooldown and looks give it value as a collectible or a breeding cat, to produce more valuable offspring.

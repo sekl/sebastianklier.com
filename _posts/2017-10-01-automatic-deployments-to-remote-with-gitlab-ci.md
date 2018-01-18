@@ -8,6 +8,8 @@ comments: true
 
 I recently spent some time cleaning up a deployment process which so far consisted pretty much of manually running a big shell script to prepare the code base and then rsync the files to a staging environment. Any database changes had to be run manually and there used to be no test suite. Because some of these process-related issues have been improved since (we have unit and functional tests now and use database migrations), it seemed like a good time to also get rid off the shell script.
 
+<!--more-->
+
 Since this project has already been using [GitLab-CI](https://about.gitlab.com/features/gitlab-ci-cd/) to run the test suite, letting it handle deployments too turned out very simple.
 
 Depending on your environments you will have to set up SSH keys for this to work so that your user on the remote server has access to your GitLab repository. Simply add the public key to your repository's deploy keys. Also, since you will be opening a SSH connection from the GitLab-runner, the user on the runner also needs access to your remote environment.
