@@ -10,7 +10,7 @@ I've found that what's missing for developers coming to **Ethereum** are really 
 
 <!--more-->
 
-I'm going to assume you already know (roughly) what Ethereum is, if not I suggest checking out the [official website](https://www.ethereum.org) and [whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper), although you don't need to fully understand the latter in order to develop on the Ethereum platform.
+I'm going to assume you already know (roughly) what Ethereum is, if not I suggest checking out the [official website](https://www.ethereum.org) and [yellow paper](http://yellowpaper.io), although you don't need to fully understand the latter in order to develop on the Ethereum platform.
 
 On a sidenote, one thing that really helped me to understand **Proof of Work**, a core concept of current **Blockchain** technology, was building a simple Blockchain implementation from scratch. You can follow [this article](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46) to do that, although I suggest implementing it yourself (maybe even in a different language) instead of just copy-pasting the code. 
 
@@ -22,7 +22,7 @@ Another important piece in the puzzle which you'd probably want to learn right a
 
 When it comes to actually developing your DApp, the [Truffle framework](http://truffleframework.com) is used by most DApps to handle common issues such as migrating your contracts and testing. When you set it up I suggest first going through their tutorial [Ethereum Pet Shop](http://truffleframework.com/tutorials/pet-shop). They also provide several [Truffle Boxes](http://truffleframework.com/boxes/) to quickly get started with the most common frontend libraries.
 
-Once you have a basic DApp ready, even if it's just a tutorial app, you will want to understand how to use testnets to test and deploy those apps. During development you will likely use [restrpc](https://github.com/ethereumjs/testrpc) and later on switch to [geth](https://github.com/ethereum/go-ethereum/wiki/geth) in order to connect to the official testnets Rinkeby or Ropsten, both of which let you deploy your contracts and test them without using any real Ether. You could also use [Truffle's Ganache app](https://github.com/trufflesuite/ganache) which they use in their tutorial for local testing, although I've found testrpc to still be better suited for the time being.
+Once you have a basic DApp ready, even if it's just a tutorial app, you will want to understand how to use testnets to test and deploy those apps. During development you will likely use [restrpc](https://github.com/ethereumjs/testrpc) (note: this is Ganache-CLI now) and later on switch to [geth](https://github.com/ethereum/go-ethereum/wiki/geth) in order to connect to the official testnets Rinkeby or Ropsten, both of which let you deploy your contracts and test them without using any real Ether. You could also use [Truffle's Ganache app](https://github.com/trufflesuite/ganache) which they use in their tutorial for local testing and gives you a nice GUI.
 
 For building a real DApp I also strongly recommend [OpenZeppelin](https://openzeppelin.org), a set of libraries to make Smart Contract development more secure and avoid common mistakes.
 
