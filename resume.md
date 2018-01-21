@@ -4,7 +4,7 @@ title:  Resume
 permalink: /resume/
 ---
 
-# Sebastian Klier - Experienced Full-Stack Developer
+# Sebastian Klier - Experienced Full-Stack and DApp Developer
 
 I build complex things for the web with React, Node.js, PHP, Golang and Rails. I also work on a DApp for Ethereum using Truffle/Solidity and Vue.
 
@@ -19,7 +19,7 @@ I build complex things for the web with React, Node.js, PHP, Golang and Rails. I
 **Frameworks:** React, Vue, Angular, Symfony, Ruby on Rails, Django, Truffle
 
 **Experience with:** Node.js, Express.js, MySQL, PostgreSQL, Redis, MongoDB,
-Memcache, Solr, RabbitMQ, REST, WebSockets, AWS, Ethereum and various other buzzwords
+Memcache, Solr, RabbitMQ, REST, WebSockets, AWS, Ethereum, Smart Contract Development and various other buzzwords
 
 ---
 
@@ -63,8 +63,9 @@ working on the software documentation.
 
 ## PERSONAL PROJECTS
 
-* Working on online courses for Vue.js: [Vue-Tutorial.com](https://www.vue-tutorial.com)
+* Working on a DApp on the Ethereum Blockchain using Solidity and Vue.js.
 * Working on a script to aggregate data from Cryptocurrency exchange APIs using Node.js.
+* Briefly worked on online courses for Vue.js: [Vue-Tutorial.com](https://www.vue-tutorial.com)
 * Worked on a browser-game using Rails/Vue.js.
 * Contributed/contributing to open-source projects: GitLab, Bolt.cm, FUDforum.
 * Led small teams of volunteer editors and designers at different website projects and
