@@ -6,9 +6,9 @@ permalink: /resume/
 
 # Sebastian Klier - Experienced Full-Stack and DApp Developer
 
-I build complex things for the web with React, Node.js, PHP, Golang and Rails. I also work on a DApp for Ethereum using Truffle/Solidity and Vue.
+I build complex things for the web with React, Node.js, PHP, Golang and Rails. I also do Solidity Smart Contract development for Ethereum DApps.
 
-[sebastian@sebastianklier.com](mailto:sebastian@sebastianklier.com) - [LinkedIn](http://www.linkedin.com/in/sebastianklier) - [GitHub](http://github.com/sekl) - [GitLab](http://gitlab.com/u/sekl)
+[sebastian@sebastianklier.com](mailto:sebastian@sebastianklier.com) - [LinkedIn](http://www.linkedin.com/in/sebastianklier) - [GitHub](http://github.com/sekl)
 
 ---
 
@@ -51,7 +51,7 @@ reviews, interviewing potential hires.
 
 * Started as a part-time job during school and evolved into a full-time remote position.
 * Server administration, shell scripts, developing internal tools (PHP, Python, Bash).
-* Development of applications for customers based on Ruby on Rails, Python, PHP, Wordpress/Typo3 or various other CMS or eCommerce solutions.
+* Developed applications for customers based on Ruby on Rails, PHP, Python and various CMS or eCommerce solutions.
 
 **Jobware Online Service GmbH** *Paderborn, Germany*  
 ***Software QA Engineer (part-time)*** *October 2008 – March 2010*
@@ -63,11 +63,11 @@ working on the software documentation.
 
 ## PERSONAL PROJECTS
 
+* Contributed/contributing to open-source projects in the Ethereum space (Colony, Status-Go) and others (GitLab, Bolt.cm).
 * Working on a DApp on the Ethereum Blockchain using Solidity and Vue.js.
 * Working on a script to aggregate data from Cryptocurrency exchange APIs using Node.js.
 * Briefly worked on online courses for Vue.js: [Vue-Tutorial.com](https://www.vue-tutorial.com)
-* Worked on a browser-game using Rails/Vue.js.
-* Contributed/contributing to open-source projects: GitLab, Bolt.cm, FUDforum.
 * Led small teams of volunteer editors and designers at different website projects and
 took care of search engine optimization, community and social media management, as
 well as development of custom tools.
+
