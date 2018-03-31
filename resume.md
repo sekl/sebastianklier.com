@@ -25,8 +25,13 @@ Memcache, Solr, RabbitMQ, REST, WebSockets, AWS, Ethereum, Smart Contract Develo
 
 ## EMPLOYMENT HISTORY
 
+**Loom Network** *Remote*  
+***Senior Developer*** *March 2018 - Present*
+
+* Working on a Blockchain-based Q&A site with Rails/Vue.js: [DelegateCall.com](https://www.delegatecall.com)
+
 **The NetCircle** *Shanghai, China*  
-***Advanced Full-Stack Developer*** *September 2014 – Present*
+***Advanced Full-Stack Developer*** *September 2014 – March 2018*
 
 * Working on a large social network site with 250,000 active members logging in every
 week, nearly a million page views and more than 100,000 messages sent between
