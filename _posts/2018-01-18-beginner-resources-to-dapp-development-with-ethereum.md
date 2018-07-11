@@ -10,7 +10,7 @@ I've found that what's missing for developers coming to **Ethereum** are really 
 
 <!--more-->
 
-I'm going to assume you already know (roughly) what Ethereum is, if not I suggest checking out the [official website](https://www.ethereum.org) and [yellow paper](http://yellowpaper.io), although you don't need to fully understand the latter in order to develop on the Ethereum platform. Instead I can also strongly recommend to read [How does Ethereum work, anyway?](https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369).
+I'm going to assume you already know (roughly) what Ethereum is, if not I suggest checking out the [official website](https://www.ethereum.org) and [yellow paper](http://yellowpaper.io), although you don't need to fully understand the latter in order to develop on the Ethereum platform. Instead I can also strongly recommend to read [How does Ethereum work, anyway?](https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369). If those resources are too technical and you're looking for a quick overview, [this](https://kingpassive.com/what-is-ethereum/) is also a good starting point, containing more links to other articles.
 
 On a sidenote, one thing that really helped me to understand **Proof of Work**, a core concept of current **Blockchain** technology, was building a simple Blockchain implementation from scratch. You can follow [this article](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46) to do that, although I suggest implementing it yourself (maybe even in a different language) instead of just copy-pasting the code. 
 
