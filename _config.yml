@@ -5,7 +5,7 @@
 #
 title: SebastianKlier.com
 email:
-description: Full-Stack Web Dev & Blockchain Enthusiast. I blog about Javascript, Golang and Ethereum.
+description: Full-Stack & Blockchain Developer. I blog about Javascript, Golang and Ethereum.
 url: https://www.sebastianklier.com
 
 
@@ -56,7 +56,7 @@ owner:
   name: Sebastian Klier
   avatar: avatar.jpg
   job: "Senior Developer at <a href='http://www.loomx.io'>Loom Network</a>"
-  bio: "Full-Stack and Blockchain Developer.<br />Currently living in Shanghai."
+  bio: "Full-Stack and Blockchain Developer.<br />Shanghai."
   email: sebastian@sebastianklier.com
   disqus-shortname: sebastianklier
   twitter: sebastianklier

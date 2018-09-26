@@ -6,7 +6,7 @@ permalink: /resume/
 
 # Sebastian Klier - Experienced Full-Stack and DApp Developer
 
-I build complex things for the web with React, Node.js, PHP, Golang and Rails. I also do Solidity Smart Contract development for Ethereum DApps.
+I build complex things for the web with Rails, Golang, Vue, React, Node.js or PHP. I also work on Blockchain projects (Loomchain, Golang Smart Contracts, Solidity & Ethereum Smart Contracts).
 
 [sebastian@sebastianklier.com](mailto:sebastian@sebastianklier.com) - [LinkedIn](http://www.linkedin.com/in/sebastianklier) - [GitHub](http://github.com/sekl)
 
@@ -19,7 +19,7 @@ I build complex things for the web with React, Node.js, PHP, Golang and Rails. I
 **Frameworks:** React, Vue, Angular, Symfony, Ruby on Rails, Django, Truffle
 
 **Experience with:** Node.js, Express.js, MySQL, PostgreSQL, Redis, MongoDB,
-Memcache, Solr, RabbitMQ, REST, WebSockets, AWS, Ethereum, Smart Contract Development and various other buzzwords
+Memcache, Solr, RabbitMQ, REST, WebSockets, AWS, Google Cloud, Docker, Ansible, Kubernetes, Ethereum, Smart Contract Development and various other buzzwords
 
 ---
 
@@ -28,7 +28,13 @@ Memcache, Solr, RabbitMQ, REST, WebSockets, AWS, Ethereum, Smart Contract Develo
 **Loom Network** *Remote*  
 ***Senior Developer*** *March 2018 - Present*
 
-* Working on a Blockchain-based Q&A site with Rails/Vue.js: [DelegateCall.com](https://www.delegatecall.com)
+* Smart Contract development with our Golang SDK
+* Working on a social network [DelegateCall.com](https://www.delegatecall.com), smart contracts for our [Zombie Battleground](https://www.kickstarter.com/projects/328862817/zombie-battleground-the-new-generation-of-ccg-tcg/) game, as well a [marketplace](https://loom.games/)
+* Developing features in Ruby on Rails
+* Frontend development with Vue.js
+* Kubernetes deployments
+* Production troubleshooting
+* Code Reviews
 
 **The NetCircle** *Shanghai, China*  
 ***Advanced Full-Stack Developer*** *September 2014 – March 2018*
@@ -36,14 +42,14 @@ Memcache, Solr, RabbitMQ, REST, WebSockets, AWS, Ethereum, Smart Contract Develo
 * Working on a large social network site with 250,000 active members logging in every
 week, nearly a million page views and more than 100,000 messages sent between
 users each day.
-* Currently working with React/Redux, Node.js/Epxress.js on a single-page application.
-* Writing data migration scripts and prototyping backend services using Golang.
-* Working with MySQL, MongoDB, Redis, Memcache, RabbitMQ, Solr, ElasticSearch, a payment service, an
+* Worked with React/Redux, Node.js/Epxress.js on a single-page application.
+* Wrote data migration scripts and prototyped backend services using Golang.
+* Worked with MySQL, MongoDB, Redis, Memcache, RabbitMQ, Solr, ElasticSearch, a payment service, an
 ad platform and an image cluster.
 * Implemented testing and deployment strategies.
 * Responsible for training and mentoring of junior developers, conducting code
 reviews, interviewing potential hires.
-* Holding presentations and technical talks about topics such as Golang, Blockchains, Doctrine internals, best practices.
+* Held presentations and technical talks about topics such as Golang, Blockchain, Doctrine internals, best practices.
 
 **FrontCoding** *Shanghai, China*  
 ***Senior Developer*** *April 2014 – September 2014*
@@ -69,8 +75,8 @@ working on the software documentation.
 ## PERSONAL PROJECTS
 
 * Contributed/contributing to open-source projects in the Ethereum space (Colony, Status-Go) and others (GitLab, Bolt.cm).
-* Working on a DApp on the Ethereum Blockchain using Solidity and Vue.js.
-* Working on a script to aggregate data from Cryptocurrency exchange APIs using Node.js.
+* Working on a site to monitor Decentraland parcel auctions.
+* Working on a browser game based on Rails/Vue.js.
 * Briefly worked on online courses for Vue.js: [Vue-Tutorial.com](https://www.vue-tutorial.com)
 * Led small teams of volunteer editors and designers at different website projects and
 took care of search engine optimization, community and social media management, as
