@@ -6,7 +6,7 @@ permalink: /resume/
 
 # Sebastian Klier - Experienced Full-Stack and DApp Developer
 
-I build complex things for the web with Rails, Golang, Vue, React, Node.js or PHP. I also work on Blockchain projects (Loomchain, Golang Smart Contracts, Solidity & Ethereum Smart Contracts).
+I build complex things for the web with Rails, Golang, Vue, React, Node.js or PHP. I also work on Blockchain projects (Golang Smart Contracts, Solidity & Ethereum Smart Contracts).
 
 [sebastian@sebastianklier.com](mailto:sebastian@sebastianklier.com) - [LinkedIn](http://www.linkedin.com/in/sebastianklier) - [GitHub](http://github.com/sekl)
 
@@ -25,12 +25,17 @@ Memcache, Solr, RabbitMQ, REST, WebSockets, AWS, Google Cloud, Docker, Ansible, 
 
 ## EMPLOYMENT HISTORY
 
+**easybill GmbH** *Remote*  
+***Ruby Developer*** *March 2019 - Present*
+
+* Working on a Ruby on Rails invoicing system integrating with 3rd-party APIs
+
 **Loom Network** *Remote*  
-***Senior Developer*** *March 2018 - Present*
+***Senior Developer*** *March 2018 - March 2019*
 
 * Smart Contract development with our Golang SDK
-* Working on a social network [DelegateCall.com](https://www.delegatecall.com), smart contracts for our [Zombie Battleground](https://www.kickstarter.com/projects/328862817/zombie-battleground-the-new-generation-of-ccg-tcg/) game, as well a [marketplace](https://loom.games/)
-* Developing features in Ruby on Rails
+* Worked on a social network [DelegateCall.com](https://www.delegatecall.com), smart contracts for our [Zombie Battleground](https://www.kickstarter.com/projects/328862817/zombie-battleground-the-new-generation-of-ccg-tcg/) game, as well a [marketplace](https://loom.games/)
+* Developed features in Ruby on Rails
 * Frontend development with Vue.js
 * Kubernetes deployments
 * Production troubleshooting
