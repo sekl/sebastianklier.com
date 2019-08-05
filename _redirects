@@ -1,0 +1,5 @@
+# Redirect default Netlify subdomain to primary domain
+http://thirsty-bardeen-80af99.netlify.com/* https://www.sebastianklier.com/:splat 301!
+https://thirsty-bardeen-80af99.netlify.com/* https://www.sebastianklier.com/:splat 301!
+http://thirsty-bardeen-80af99.netlify.com https://www.sebastianklier.com/:splat 301!
+https://thirsty-bardeen-80af99.netlify.com https://www.sebastianklier.com/:splat 301!
