@@ -28,7 +28,7 @@ Memcache, Solr, RabbitMQ, REST, WebSockets, AWS, Google Cloud, Docker, Ansible, 
 **easybill GmbH** *Remote*  
 ***Ruby Developer*** *March 2019 - Present*
 
-* Working on a Ruby on Rails invoicing system integrating with 3rd-party APIs
+* Working on a Ruby on Rails invoicing system integrating with 3rd-party APIs for Amazon, Shopify, Ebay and other e-commerce systems.
 
 **Loom Network** *Remote*  
 ***Senior Developer*** *March 2018 - March 2019*
