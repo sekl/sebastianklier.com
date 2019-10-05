@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rails Database Migrations on Kubernetes"
-date: "2019-10-05T16:15:00.284Z"
+date: "2019-10-05T15:15:00.284Z"
 categories: [kubernetes, rails]
 comments: true
 ---
