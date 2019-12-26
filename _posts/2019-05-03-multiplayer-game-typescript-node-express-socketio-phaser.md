@@ -258,3 +258,5 @@ app.use(express.static(path.join( __dirname, "../client")))
 So from now on we can run `npm run dev` to start everything up. If you do that now, you should see a black canvas where Phaser injects the client - and if you look closer you will also see some errors in the JS console because we didn't give Phaser a valid scene to work with. But we can fix that later!
 
 You can find the full source code on [GitHub](https://github.com/sekl/typescript-express-socketio-phaser-starter).
+
+By the way, if you are interested in online games, you might want to check out my website for Amazon's [New World MMO](https://newworldfans.com). I also have a [New World Discord](https://newworldfans.com/discord) server running, and developed a bot that you can use on your server to get notified when there are new developer posts!

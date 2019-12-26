@@ -55,8 +55,8 @@ exclude: [node_modules, vendor, "Gemfile", "Gemfile.lock", "package.json"]
 owner:
   name: Sebastian Klier
   avatar: avatar.jpg
-  job: "Ruby Developer at <a href='http://www.easybill.de'>easybill GmbH</a>"
-  bio: "Full-Stack and Blockchain Developer."
+  job: "Ruby Developer at <a href='http://www.easybill.de'>easybill GmbH</a><br /><br />Admin of <a href='https://newworldfans.com' title='New World MMO Fansite'>New World Fans</a>"
+  bio: "Full-Stack Developer with Kubernetes Experience."
   email: sebastian@sebastianklier.com
   disqus-shortname: sebastianklier
   twitter: sebastianklier
