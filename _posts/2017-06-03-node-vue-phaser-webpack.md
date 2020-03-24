@@ -207,5 +207,3 @@ module.exports = {
 If you try to run the app again now, Webpack should find Phaser and build it for us. We can now include the Phaser game object, implement some sort of Node API or integrate everything with WebSockets and get to work. ;)
 
 I've made the result of this work available as a [boilerplate](https://github.com/sekl/node-vue-phaser-boilerplate) on GitHub. Please let me know if you run into any issues. Thanks to everyone who pointed out errors in the comments. :)
-
-Also, since you seem to be interested in gaming: I have a website for Amazon's [New World MMO](https://newworldfans.com). Feel free to join the [New World Discord](https://newworldfans.com/discord), or check out the discord bot that you can add to your own server!
