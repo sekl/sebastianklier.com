@@ -5,7 +5,7 @@
 #
 title: SebastianKlier.com
 email:
-description: Full-Stack & Blockchain Developer. I blog about Javascript, Golang and Ethereum.
+description: Full-Stack Developer
 url: https://www.sebastianklier.com
 
 
@@ -55,8 +55,8 @@ exclude: [node_modules, vendor, "Gemfile", "Gemfile.lock", "package.json"]
 owner:
   name: Sebastian Klier
   avatar: avatar.jpg
-  job: "Ruby Developer at <a href='http://www.easybill.de'>easybill GmbH</a>"
-  bio: "Full-Stack Developer with Kubernetes Experience.<br> Founder at <a href='https://newworldfans.com' title='New World MMO'>NewWorldFans</a>"
+  job: "Founder at <a href='https://newworldfans.com' title='New World MMO'>NewWorldFans</a>, <a href='https://www.newworld-map.com' title='New World Map'>NewWorld-Map</a>."
+  bio: "Full-Stack Developer with Kubernetes Experience."
   email: sebastian@sebastianklier.com
   disqus-shortname: sebastianklier
   twitter: sebastianklier
